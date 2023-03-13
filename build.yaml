@@ -13,5 +13,5 @@
 #
 ---
 include:
-  - board: nrfmicro_13
+  - board: bluemicro840_v1
     shield: reviung41
