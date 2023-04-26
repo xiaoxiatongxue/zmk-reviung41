@@ -33,6 +33,59 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        new_combo {
+            bindings = <&kp LBKT>;
+            key-positions = <3 4>;
+        };
+
+        new_combo {
+            bindings = <&kp RBKT>;
+            key-positions = <7 8>;
+        };
+
+        new_combo {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <15 16>;
+        };
+
+        new_combo {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <19 20>;
+        };
+
+        new_combo {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <27 28>;
+        };
+
+        new_combo {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <31 32>;
+        };
+
+        new_combo {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <5 6>;
+        };
+
+        new_combo {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <17 18>;
+        };
+    };
+
+    macros {
+        phone: phone {
+            compatible = "zmk,behavior-macro";
+            label = "PHONE";
+            #binding-cells = <0>;
+            bindings = <&none &kp N1 &kp N5 &kp N1 &kp N5 &kp N7 &kp N8 &kp N8 &kp N2 &kp N7 &kp N7 &kp N6>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -74,7 +127,7 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-&trans     &kp ESC  &kp KP_N7  &kp KP_N8  &kp KP_N9    &kp KP_N0            &trans    &trans    &kp UP     &trans  &trans  &kp DEL
+&trans     &kp ESC  &kp KP_N7  &kp KP_N8  &kp KP_N9    &kp KP_N0            &phone    &trans    &kp UP     &trans  &trans  &kp DEL
 &trans    &kp CAPS  &kp KP_N6  &kp KP_N5  &kp KP_N6   &kp KP_DOT            &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &trans
 &trans  &kp DELETE  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp AT_SIGN            &trans    &trans    &trans     &trans  &trans   &trans
                                   &trans      &mo 3               &kp BSPC            &trans    &trans
