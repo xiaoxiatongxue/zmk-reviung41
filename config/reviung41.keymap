@@ -38,42 +38,22 @@
 
         combo1 {
             bindings = <&kp LBKT>;
-            key-positions = <3 4>;
+            key-positions = <6 7>;
         };
 
         combo2 {
             bindings = <&kp RBKT>;
-            key-positions = <7 8>;
+            key-positions = <8 9>;
         };
 
         combo3 {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <15 16>;
+            key-positions = <16 17>;
         };
 
-        combo4 {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <19 20>;
-        };
-
-        combo5 {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <27 28>;
-        };
-
-        combo6 {
-            bindings = <&kp RIGHT_BRACE>;
-            key-positions = <31 32>;
-        };
-
-        combo7 {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <5 6>;
-        };
-
-        combo8 {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <17 18>;
+        new_combo {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <36 37>;
         };
     };
 
