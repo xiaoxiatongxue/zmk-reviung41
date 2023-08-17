@@ -95,7 +95,7 @@
  &mt CAPS TAB       &kp N1           &kp N2       &kp N3         &kp N4          &kp N5         &mt CARET NUMBER_6          &mt AMPS N7     &mt ASTRK N8  &mt KP_LEFT_PARENTHESIS N9        &kp PLUS       &kp STAR
   &kp PAGE_UP  &mt EXCL N1  &mt AT NUMBER_2  &mt HASH N3  &mt DOLLAR N4  &mt PERCENT N5             &mt PLUS EQUAL  &kp LC(KP_NUMBER_4)  &kp KP_NUMBER_5         &kp RC(KP_NUMBER_6)    &kp KP_MINUS   &kp LS(FSLH)
 &kp PAGE_DOWN    &kp LC(Z)        &kp LC(X)    &kp LC(C)      &kp LC(V)   &kp LC(LA(A))            &mt UNDER MINUS            &kp KP_N1        &kp KP_N2                   &kp KP_N3  &kp RC(KP_DOT)  &mt RSHFT RET
-                                                  &trans         &trans                  &mo 3                          &kp RIGHT_SHIFT  &kp KP_NUMBER_0
+                                                  &trans         &trans                  &mo 2                          &kp RIGHT_SHIFT  &kp KP_NUMBER_0
             >;
         };
 
